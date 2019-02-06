@@ -1,0 +1,576 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#SlideShow3
+{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   left: 0px;
+   z-index: 0;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+@keyframes SlideShow3-animation
+{
+   0% { opacity: 0; animation-timing-function: ease-in; }
+   4% { opacity: 1; animation-timing-function: ease-out; }
+   10% { opacity: 1; }
+   14% { opacity: 0; }
+   100% { opacity: 0; }
+}
+#SlideShow3 li span
+{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-size: cover;
+   background-position: 50% 50%;
+   background-repeat: none;
+   opacity: 0;
+   z-index: 0;
+   animation: SlideShow3-animation 50s linear infinite 0s;
+}
+#SlideShow3 li:nth-child(1) span
+{
+   background-image: url(images/lukecagethumb.jpg);
+   animation-delay: 0s;
+}
+#SlideShow3 li:nth-child(2) span
+{
+   background-image: url(images/dccyborgthumb.jpg);
+   animation-delay: 5s;
+}
+#SlideShow3 li:nth-child(3) span
+{
+   background-image: url(images/moderndaymaharajathumb.jpg);
+   animation-delay: 10s;
+}
+#SlideShow3 li:nth-child(4) span
+{
+   background-image: url(images/thepunisherthumb.jpg);
+   animation-delay: 15s;
+}
+#SlideShow3 li:nth-child(5) span
+{
+   background-image: url(images/fujiwaramanchesterthumb.jpg);
+   animation-delay: 20s;
+}
+#SlideShow3 li:nth-child(6) span
+{
+   background-image: url(images/trollhuntersthumb.jpg);
+   animation-delay: 25s;
+}
+#SlideShow3 li:nth-child(7) span
+{
+   background-image: url(images/newsupermanthumb.jpg);
+   animation-delay: 30s;
+}
+#SlideShow3 li:nth-child(8) span
+{
+   background-image: url(images/powerrangersthumb.jpg);
+   animation-delay: 35s;
+}
+#SlideShow3 li:nth-child(9) span
+{
+   background-image: url(images/redhoodoutlawsthumb.jpg);
+   animation-delay: 40s;
+}
+#SlideShow3 li:nth-child(10) span
+{
+   background-image: url(images/evolvedthumb.jpg);
+   animation-delay: 45s;
+}
+#Shape2
+{
+   border-width: 0;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 1px;
+   border-radius: 0;
+   box-shadow: none;
+}
+#PanelMenu1_markup .divider
+{
+   height: 1px;
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #2E2E2E;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 1px solid #2E2E2E;
+   background-color: #3E3E3E;
+   font-family: "Rajdhani";
+   font-weight: 700;
+   font-size: 29px;
+   font-style: normal;
+   text-decoration: none;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 1px solid #2E2E2E;
+}
+#PanelMenu1_panel
+{
+   background-color: #3E3E3E;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   padding-left: 45px;
+}
+#PanelMenu1:after
+{
+   position: absolute;
+   top: 50%;
+   left: 10px;
+   width: 35px;
+   height: 35px;
+   margin-top: -17px;
+   content: "\f0c9";
+   display: inline-block;
+   font-family: FontAwesome;
+   font-size: 35px;
+   line-height: 35px;
+}
+#PanelMenu1
+{
+   line-height: 53px;
+   width: 8px;
+   height: 53px;
+   position: absolute;
+   z-index: 999;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 35px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 35px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 35px;
+   vertical-align: middle;
+   line-height: 35px;
+}
+#Shape3
+{
+   border-width: 0;
+}
+#Shape4
+{
+   border-width: 0;
+}
+#Banner1
+{
+   background-color: #202020;
+   background-image: none;
+   border: 0px solid #202020;
+   color: #FFFFFF;
+   font-family: "Rajdhani";
+   font-weight: 700;
+   font-size: 35px;
+   text-align: center;
+   margin: 0;
+}
+#Banner1 span
+{
+   display: block;
+   height: 35px;
+   margin: 5px 0px 5px 0px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_SlideShow1
+{
+   min-height: 20px;
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px solid #E3E3E3;
+   box-sizing: border-box;
+   width: 100%;
+   table-layout: fixed;
+   display: table;
+   margin: 0;
+}
+#SlideShow1
+{
+   padding: 30px 40px 30px 40px;
+   position: relative;
+   margin: 0;
+   line-height: 1;
+   height: 100%;
+   box-sizing: border-box;
+}
+#SlideShow1 .carousel-inner
+{
+   overflow: hidden;
+   width: 100%;
+   position: relative;
+}
+#SlideShow1 .carousel-inner > .item
+{
+   display: none;
+   position: relative;
+   -webkit-transition: 0.6s ease-in-out left;
+   -moz-transition: 0.6s ease-in-out left;
+   transition: 0.6s ease-in-out left;
+}
+#SlideShow1 .carousel-inner > .item > img, #SlideShow1 .carousel-inner > .item > a > img
+{
+   display: block;
+   line-height: 1;
+}
+#SlideShow1 .carousel-inner > .active, #SlideShow1 .carousel-inner > .next, #SlideShow1 .carousel-inner > .prev
+{
+   display: block;
+}
+#SlideShow1 .carousel-inner > .active
+{
+   left: 0;
+}
+#SlideShow1 .carousel-inner > .next, #SlideShow1 .carousel-inner > .prev
+{
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#SlideShow1 .carousel-inner > .next
+{
+   left: 100%;
+}
+#SlideShow1 .carousel-inner > .prev
+{
+   left: -100%;
+}
+#SlideShow1 .carousel-inner > .next.left, #SlideShow1 .carousel-inner > .prev.right
+{
+   left: 0;
+}
+#SlideShow1 .carousel-inner > .active.left
+{
+   left: -100%;
+}
+#SlideShow1 .carousel-inner > .active.right
+{
+   left: 100%;
+}
+#SlideShow1 .thumbnails
+{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+#SlideShow1 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   box-sizing: border-box;
+   float: left;
+   text-align: center;
+   vertical-align: top;
+   padding-right: 3px;
+   width: 25%;
+}
+#SlideShow1 .thumbnail img
+{
+   max-width: 100%;
+   width: 100%;
+   height: auto;
+   vertical-align: middle;
+   box-sizing: border-box;
+   border: 0px solid #000000;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#SlideShow2 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon1
+{
+   height: 56px;
+   width: 77px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 56px;
+   line-height: 56px;
+   vertical-align: middle;
+   width: 51px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #202020;
+}
+#wb_FontAwesomeIcon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon2:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon2
+{
+   height: 56px;
+   width: 77px;
+}
+#FontAwesomeIcon2 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 56px;
+   line-height: 56px;
+   vertical-align: middle;
+   width: 47px;
+}
+#wb_FontAwesomeIcon2:hover i
+{
+   color: #202020;
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon3
+{
+   height: 56px;
+   width: 77px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 56px;
+   line-height: 56px;
+   vertical-align: middle;
+   width: 31px;
+}
+#wb_FontAwesomeIcon3:hover i
+{
+   color: #202020;
+}
+#wb_FontAwesomeIcon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon4:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon4
+{
+   height: 56px;
+   width: 77px;
+}
+#FontAwesomeIcon4 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 56px;
+   line-height: 56px;
+   vertical-align: middle;
+   width: 47px;
+}
+#wb_FontAwesomeIcon4:hover i
+{
+   color: #202020;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#SlideShow4 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#PageFooter1
+{
+   background-color: #202020;
+   background-image: none;
+   box-sizing: border-box;
+}
